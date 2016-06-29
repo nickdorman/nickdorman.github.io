@@ -147,6 +147,7 @@ footer h4{
   position: relative;
   border-top: 1px grey solid;
   padding-top: 5px;
+  margin-left: 20px; /* added by Pedro */
 }
 
 footer h4:before {
@@ -160,7 +161,7 @@ footer h4:before {
     padding-right: 0.5em;
     position: absolute;
     top: 8px;
-    left: 0;
+    left: -20px; /* added by Pedro */
 }
 
 
