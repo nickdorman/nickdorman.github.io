@@ -1,4 +1,4 @@
-/*UTILITY*/
+            /*UTILITY*/
 
 * {
     box-sizing: border-box;
@@ -21,24 +21,21 @@ h4 {
     font-size: 14px;
     color: white;
 }
-
 h1 {
-  font-size: 3.5em;
-  font-weight: 700;
-  line-height: 0.8em;
-  font-family: 'Work Sans', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 0.8em;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
 }
-
 ul {
     margin-top: 0px;
 }
-
 li {
     font-size: 14px;
     font-weight: 200;
     text-decoration: none;
 }
-
 a {
     font-size: 16px;
     text-decoration: none;
@@ -50,11 +47,11 @@ a {
 /*PAGE*/
 
 .container {
-        height: 100vh;
-        width: auto;
-        /*background-image: url(./../images/big1.jpg);*/
-        background-size: cover;
-        background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    /*background-image: url(./../images/big1.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*HEADER*/
@@ -65,7 +62,6 @@ a {
     height: 90px;
     padding: 20px 0px 20px 20px;
 }
-
 
 /*@media screen and (min-width: 600px) {
   .col-sm-2{
@@ -85,20 +81,21 @@ main img {
     margin-top: 70px;
     margin-left: 20px;
 }
-
 .main-nav a {
     margin-left: 25px;
     padding-right: 25px;
     /*border-right: 1px solid white;*/
     text-decoration: none;
 }
-
 .main-nav div {
-  width: 1px;
-  height: 20px;
-  background-color: white;
+    width: 1px;
+    height: 20px;
+    background-color: white;
 }
 
+.burger {
+    display: none;
+}
 
 /*a.no-border {
     border-right-width: 0px;
@@ -106,54 +103,55 @@ main img {
 
 
 /* Float */
+
 .hvr-float {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-  color: yellow;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    color: yellow;
 }
 
 /*ROTATE ANIMATION*/
 
 .hvr-rotate {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 /*MAIN*/
 
 .headline {
-  width: 200px;
-  margin-left: 20px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 /*FOOTER*/
@@ -163,14 +161,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-footer h4{
-  position: relative;
-  border-top: 1px rgba(255, 255, 255, 0.5) solid;
-  padding-top: 5px;
-  margin-left: 20px; /* added by Pedro */
+footer h4 {
+    position: relative;
+    border-top: 1px rgba(255, 255, 255, 0.5) solid;
+    padding-top: 5px;
+    margin-left: 20px;
+    /* added by Pedro */
 }
-
 footer h4:before {
     content: "\f055";
     font-family: FontAwesome;
@@ -182,22 +179,18 @@ footer h4:before {
     padding-right: 0.5em;
     position: absolute;
     top: 8px;
-    left: -20px; /* added by Pedro */
+    left: -20px;
+    /* added by Pedro */
 }
-
-
 .map-button {
-  width: 100px;
+    width: 100px;
 }
-
 .map-button a {
-  font-size: 14px;
+    font-size: 14px;
 }
-
 .column1 p {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
-
 .bottom-box {
     display: flex;
     flex-direction: row;
@@ -209,7 +202,6 @@ footer h4:before {
     padding-right: 20px;
     padding-bottom: 20px;
 }
-
 .column1 {
     /*order: 1;*/
     width: 33%;
@@ -244,8 +236,31 @@ footer h4:before {
     transition-property: transform;
     transition-timing-function: ease-out;
 }
-
 .hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
-  -webkit-transform: translateX(4px);
-  transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
 }
+@media screen and (max-width: 843px) {
+    .container {
+        min-height: 700px;
+    }
+    @media screen and (max-width: 660px) {
+        .container {
+            min-height: 900px;
+        }
+        .main-nav {
+            display: none;
+        }
+        .burger {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              position: absolute;
+              right: 20px;
+              top: 25px;
+          }
+        }
+        @media screen and (max-width: 450px) {
+            .container {
+                min-height: 1200px;
+            }

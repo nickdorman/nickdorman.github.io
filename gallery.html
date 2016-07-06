@@ -12,11 +12,19 @@
 
     <!-- STYLESHEETS -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="styles/gallerystyles.css"/>
+    <link rel="stylesheet" href="styles/gallerystyles.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+    <link rel="stylesheet" href="./scripts/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="./scripts/fancybox/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+
+  <link rel="stylesheet" href="./scripts/fancybox/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+
 </head>
 
 <body>
@@ -42,6 +50,9 @@
                 <a class="no-border hvr-float" href="#">Local Information</a>
             </nav>
 
+            <div class="burger"><img src="./images/burger.svg" alt="burger" width="40"></div>
+
+
         </header>
 
         <!-- MAIN -->
@@ -49,91 +60,133 @@
             <h1>THE GARDEN ROOMS</h1>
         </div>
         <main>
-<div class="gallery">
+            <!-- <div class="gallery">
   <div class="img">
-  <a target="_blank" href="./images/gallery-images/g-01.png">
+  <a target="_blank" href="./images/gallery-images/g-01.jpg">
     <img src="./images/gallery-images/thumbnails/Tgallery_01.png" alt="Room">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-  <a target="_blank" href="forest.jpg">
-    <img src="forest.jpg" alt="Forest">
+  <a target="_blank" href="./images/gallery-images/g-02.jpg">
+    <img src="./images/gallery-images/thumbnails/Tgallery_02.png" alt="Forest">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-  <a target="_blank" href="lights.jpg">
-    <img src="lights.jpg" alt="Northern Lights">
+  <a target="_blank" href="./images/gallery-images/g-03.jpg">
+    <img src="./images/gallery-images/thumbnails/Tgallery_03.png" alt="Northern Lights">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-  <a target="_blank" href="mountains.jpg">
-    <img src="mountains.jpg" alt="Mountains">
+  <a target="_blank" href="./images/gallery-images/g-04.jpg">
+    <img src="./images/gallery-images/thumbnails/Tgallery_04.png" alt="Mountains">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="fjords.jpg">
-  <img src="fjords.jpg" alt="Fjords">
+<a target="_blank" href="./images/gallery-images/g-05.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_05.png" alt="Fjords">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="forest.jpg">
-  <img src="forest.jpg" alt="Forest">
+<a target="_blank" href="./images/gallery-images/g-06.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_06.png" alt="Forest">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="lights.jpg">
-  <img src="lights.jpg" alt="Northern Lights">
+<a target="_blank" href="./images/gallery-images/g-07.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_07.png" alt="Northern Lights">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="mountains.jpg">
-  <img src="mountains.jpg" alt="Mountains">
+<a target="_blank" href="./images/gallery-images/g-08.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_08.png" alt="Mountains">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="fjords.jpg">
-  <img src="fjords.jpg" alt="Fjords">
+<a target="_blank" href="./images/gallery-images/g-09.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_09.png" alt="Fjords">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="forest.jpg">
-  <img src="forest.jpg" alt="Forest">
+<a target="_blank" href="./images/gallery-images/g-10.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_10.png" alt="Forest">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="lights.jpg">
-  <img src="lights.jpg" alt="Northern Lights">
+<a target="_blank" href="./images/gallery-images/g-11.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_11.png" alt="Northern Lights">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="img">
-<a target="_blank" href="mountains.jpg">
-  <img src="mountains.jpg" alt="Mountains">
+<a target="_blank" href="./images/gallery-images/g-12.jpg">
+  <img src="./images/gallery-images/thumbnails/Tgallery_12.png" alt="Mountains">
 </a>
 <div class="desc">Add a description of the image here</div>
 </div>
-</div>
+</div> -->
+
+            <section>
+                <ul class="fancybox">
+                    <li>
+                        <a href="./images/gallery-images/g-01.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-02.jpg"  rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-03.jpg"  rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_03.png" alt="" rel="gallery1"></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-04.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_04.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-05.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_05.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-06.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_06.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-07.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_07.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-08.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_08.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-09.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_09.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-10.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_10.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-11.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_11.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./images/gallery-images/g-12.jpg" rel="gallery1"><img src="./images/gallery-images/thumbnails/Tgallery_12.png" alt=""></a>
+                    </li>
+                </ul>
+            </section>
+
         </main>
 
 
@@ -143,19 +196,24 @@
         </footer>
     </div>
 
-<!-- JQUERY -->
+    <!-- JQUERY -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-<!-- PLUGINS -->
+    <!-- PLUGINS -->
 
+    <script type="text/javascript" src="./scripts/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-<script src="scripts/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="./scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="./scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
+  <script type="text/javascript" src="./scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
-<!-- OUR SCRIPTS -->
+    <script src="scripts/backstretch.js"></script>
 
-<script src="scripts/main.js"></script>
+    <!-- OUR SCRIPTS -->
+
+    <script src="scripts/main.js"></script>
 
 
 
